@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: launcher - Win32 (WCE SH4) Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /r /fo"WCESH4Rel/resource.res" /d "SHx" /d "SH4" /d "_SH4_" /d UNDER_CE=212 /d _WIN32_WCE=212 /d "Dreamcast" /d "UNICODE" /d "NDEBUG" "C:\WCEDreamcast\dcdoom\launcher\resource.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9036.TMP" with contents
+[
+/nologo /MC /W3 /Zi /Ox /D _WIN32_WCE=212 /D "Dreamcast" /D "NDEBUG" /D "SHx" /D "SH4" /D "_SH4_" /D UNDER_CE=212 /D "UNICODE" /D "_MBCS" /D "_UNICODE" /Fp"WCESH4Rel/launcher.pch" /YX /Fo"WCESH4Rel/" /Fd"WCESH4Rel/" /Qsh4r7 /Qs /Qfast /Qgvp /c 
+"C:\WCEDreamcast\dcdoom\launcher\launcher.cpp"
+"C:\WCEDreamcast\dcdoom\launcher\main.cpp"
+]
+Creating command line "shcl.exe @C:\WINDOWS\TEMP\RSP9036.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9037.TMP" with contents
+[
+coredll.lib winsock.lib corelibc.lib cemm.lib ddraw.lib dinput.lib dxguid.lib floatmath.lib dsound.lib platutil.lib shintr.lib mapledev.lib /nologo /entry:"WinMainCRTStartup" /base:"0x00010000" /align:"4096" /incremental:no /pdb:"WCESH4Rel/launcher.pdb" /machine:SH4 /nodefaultlib:"libc.lib /nodefaultlib:libcd.lib /nodefaultlib:libcmt.lib /nodefaultlib:libcmtd.lib /nodefaultlib:msvcrt.lib /nodefaultlib:msvcrtd.lib" /out:"WCESH4Rel/launcher.exe" /subsystem:windowsce,2.12 /STACK:65536,4096 
+.\WCESH4Rel\launcher.obj
+.\WCESH4Rel\main.obj
+.\WCESH4Rel\resource.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP9037.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+launcher.cpp
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+launcher.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
