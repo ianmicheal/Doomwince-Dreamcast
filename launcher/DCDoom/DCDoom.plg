@@ -1,0 +1,739 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DCDoom - Win32 (WCE SH4) Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x809 /r /fo"WCESH4Rel/DCDoom.res" /d "SHx" /d "SH4" /d "_SH4_" /d UNDER_CE=212 /d _WIN32_WCE=212 /d "Dreamcast" /d "UNICODE" /d "NDEBUG" "C:\WCEDreamcast\dcdoom\DCDoom\DCDoom.rc"" 
+Creating temporary file "C:\DOCUME~1\TERNET~1\LOCALS~1\Temp\RSP9.tmp" with contents
+[
+/nologo /MC /W3 /Zi /O1 /Ob2 /D _WIN32_WCE=212 /D "Dreamcast" /D "NDEBUG" /D "SHx" /D "SH4" /D "_SH4_" /D UNDER_CE=212 /D "UNICODE" /D "_MBCS" /D "_UNICODE" /Fp"WCESH4Rel/DCDoom.pch" /YX /Fo"WCESH4Rel/" /Fd"WCESH4Rel/" /Qsh4r7 /Qs /Qfast /Qgvp /c 
+"C:\WCEDreamcast\dcdoom\Am_map.c"
+"C:\WCEDreamcast\dcdoom\D_items.c"
+"C:\WCEDreamcast\dcdoom\D_main.c"
+"C:\WCEDreamcast\dcdoom\D_net.c"
+"C:\WCEDreamcast\dcdoom\Dconsole.c"
+"C:\WCEDreamcast\dcdoom\Doomdef.c"
+"C:\WCEDreamcast\dcdoom\Doomstat.c"
+"C:\WCEDreamcast\dcdoom\Dstrings.c"
+"C:\WCEDreamcast\dcdoom\Dxerr.c"
+"C:\WCEDreamcast\dcdoom\F_finale.c"
+"C:\WCEDreamcast\dcdoom\F_wipe.c"
+"C:\WCEDreamcast\dcdoom\G_game.c"
+"C:\WCEDreamcast\dcdoom\Hu_lib.c"
+"C:\WCEDreamcast\dcdoom\Hu_stuff.c"
+"C:\WCEDreamcast\dcdoom\I_main.c"
+"C:\WCEDreamcast\dcdoom\i_music.c"
+"C:\WCEDreamcast\dcdoom\I_net.c"
+"C:\WCEDreamcast\dcdoom\I_sound.c"
+"C:\WCEDreamcast\dcdoom\I_system.c"
+"C:\WCEDreamcast\dcdoom\I_video.c"
+"C:\WCEDreamcast\dcdoom\Info.c"
+"C:\WCEDreamcast\dcdoom\M_argv.c"
+"C:\WCEDreamcast\dcdoom\M_bbox.c"
+"C:\WCEDreamcast\dcdoom\M_cheat.c"
+"C:\WCEDreamcast\dcdoom\M_fixed.c"
+"C:\WCEDreamcast\dcdoom\M_menu.c"
+"C:\WCEDreamcast\dcdoom\M_misc.c"
+"C:\WCEDreamcast\dcdoom\M_random.c"
+"C:\WCEDreamcast\dcdoom\M_swap.c"
+"C:\WCEDreamcast\dcdoom\P_ceilng.c"
+"C:\WCEDreamcast\dcdoom\P_doors.c"
+"C:\WCEDreamcast\dcdoom\P_enemy.c"
+"C:\WCEDreamcast\dcdoom\P_floor.c"
+"C:\WCEDreamcast\dcdoom\P_inter.c"
+"C:\WCEDreamcast\dcdoom\P_lights.c"
+"C:\WCEDreamcast\dcdoom\P_map.c"
+"C:\WCEDreamcast\dcdoom\P_maputl.c"
+"C:\WCEDreamcast\dcdoom\P_mobj.c"
+"C:\WCEDreamcast\dcdoom\P_plats.c"
+"C:\WCEDreamcast\dcdoom\P_pspr.c"
+"C:\WCEDreamcast\dcdoom\P_saveg.c"
+"C:\WCEDreamcast\dcdoom\P_setup.c"
+"C:\WCEDreamcast\dcdoom\P_sight.c"
+"C:\WCEDreamcast\dcdoom\P_spec.c"
+"C:\WCEDreamcast\dcdoom\P_switch.c"
+"C:\WCEDreamcast\dcdoom\P_telept.c"
+"C:\WCEDreamcast\dcdoom\P_tick.c"
+"C:\WCEDreamcast\dcdoom\P_user.c"
+"C:\WCEDreamcast\dcdoom\R_bsp.c"
+"C:\WCEDreamcast\dcdoom\R_data.c"
+"C:\WCEDreamcast\dcdoom\R_draw.c"
+"C:\WCEDreamcast\dcdoom\R_main.c"
+"C:\WCEDreamcast\dcdoom\R_plane.c"
+"C:\WCEDreamcast\dcdoom\R_segs.c"
+"C:\WCEDreamcast\dcdoom\R_sky.c"
+"C:\WCEDreamcast\dcdoom\R_things.c"
+"C:\WCEDreamcast\dcdoom\S_sound.c"
+"C:\WCEDreamcast\dcdoom\Sounds.c"
+"C:\WCEDreamcast\dcdoom\St_lib.c"
+"C:\WCEDreamcast\dcdoom\St_stuff.c"
+"C:\WCEDreamcast\dcdoom\Tables.c"
+"C:\WCEDreamcast\dcdoom\V_video.c"
+"C:\WCEDreamcast\dcdoom\W_wad.c"
+"C:\WCEDreamcast\dcdoom\Wi_stuff.c"
+"C:\WCEDreamcast\dcdoom\Windoom.c"
+"C:\WCEDreamcast\dcdoom\Z_zone.c"
+]
+Creating command line "shcl.exe @C:\DOCUME~1\TERNET~1\LOCALS~1\Temp\RSP9.tmp" 
+Creating temporary file "C:\DOCUME~1\TERNET~1\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+coredll.lib winsock.lib corelibc.lib cemm.lib ddraw.lib dinput.lib dxguid.lib floatmath.lib dsound.lib platutil.lib shintr.lib mapledev.lib /nologo /entry:"WinMainCRTStartup" /base:"0x00010000" /align:"4096" /incremental:no /pdb:"WCESH4Rel/DCDoom.pdb" /machine:SH4 /nodefaultlib:"libc.lib /nodefaultlib:libcd.lib /nodefaultlib:libcmt.lib /nodefaultlib:libcmtd.lib /nodefaultlib:msvcrt.lib /nodefaultlib:msvcrtd.lib" /nodefaultlib /out:"WCESH4Rel/DCDoom.exe" /subsystem:windowsce,2.12 /STACK:65536,4096 
+.\WCESH4Rel\Am_map.obj
+.\WCESH4Rel\D_items.obj
+.\WCESH4Rel\D_main.obj
+.\WCESH4Rel\D_net.obj
+.\WCESH4Rel\Dconsole.obj
+.\WCESH4Rel\Doomdef.obj
+.\WCESH4Rel\Doomstat.obj
+.\WCESH4Rel\Dstrings.obj
+.\WCESH4Rel\Dxerr.obj
+.\WCESH4Rel\F_finale.obj
+.\WCESH4Rel\F_wipe.obj
+.\WCESH4Rel\G_game.obj
+.\WCESH4Rel\Hu_lib.obj
+.\WCESH4Rel\Hu_stuff.obj
+.\WCESH4Rel\I_main.obj
+.\WCESH4Rel\i_music.obj
+.\WCESH4Rel\I_net.obj
+.\WCESH4Rel\I_sound.obj
+.\WCESH4Rel\I_system.obj
+.\WCESH4Rel\I_video.obj
+.\WCESH4Rel\Info.obj
+.\WCESH4Rel\M_argv.obj
+.\WCESH4Rel\M_bbox.obj
+.\WCESH4Rel\M_cheat.obj
+.\WCESH4Rel\M_fixed.obj
+.\WCESH4Rel\M_menu.obj
+.\WCESH4Rel\M_misc.obj
+.\WCESH4Rel\M_random.obj
+.\WCESH4Rel\M_swap.obj
+.\WCESH4Rel\P_ceilng.obj
+.\WCESH4Rel\P_doors.obj
+.\WCESH4Rel\P_enemy.obj
+.\WCESH4Rel\P_floor.obj
+.\WCESH4Rel\P_inter.obj
+.\WCESH4Rel\P_lights.obj
+.\WCESH4Rel\P_map.obj
+.\WCESH4Rel\P_maputl.obj
+.\WCESH4Rel\P_mobj.obj
+.\WCESH4Rel\P_plats.obj
+.\WCESH4Rel\P_pspr.obj
+.\WCESH4Rel\P_saveg.obj
+.\WCESH4Rel\P_setup.obj
+.\WCESH4Rel\P_sight.obj
+.\WCESH4Rel\P_spec.obj
+.\WCESH4Rel\P_switch.obj
+.\WCESH4Rel\P_telept.obj
+.\WCESH4Rel\P_tick.obj
+.\WCESH4Rel\P_user.obj
+.\WCESH4Rel\R_bsp.obj
+.\WCESH4Rel\R_data.obj
+.\WCESH4Rel\R_draw.obj
+.\WCESH4Rel\R_main.obj
+.\WCESH4Rel\R_plane.obj
+.\WCESH4Rel\R_segs.obj
+.\WCESH4Rel\R_sky.obj
+.\WCESH4Rel\R_things.obj
+.\WCESH4Rel\S_sound.obj
+.\WCESH4Rel\Sounds.obj
+.\WCESH4Rel\St_lib.obj
+.\WCESH4Rel\St_stuff.obj
+.\WCESH4Rel\Tables.obj
+.\WCESH4Rel\V_video.obj
+.\WCESH4Rel\W_wad.obj
+.\WCESH4Rel\Wi_stuff.obj
+.\WCESH4Rel\Windoom.obj
+.\WCESH4Rel\Z_zone.obj
+.\WCESH4Rel\DCDoom.res
+]
+Creating command line "link.exe @C:\DOCUME~1\TERNET~1\LOCALS~1\Temp\RSPA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Am_map.c
+C:\WCEDreamcast\dcdoom\Am_map.c(205) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(205) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(205) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(205) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(206) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(206) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(207) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(207) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(214) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(214) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(215) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(215) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(216) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(216) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(216) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(216) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+C:\WCEDreamcast\dcdoom\Am_map.c(283) : warning C4244: 'initializing' : conversion from 'const double ' to 'int ', possible loss of data
+D_items.c
+D_main.c
+C:\WCEDreamcast\dcdoom\D_main.c(788) : warning C4013: 'stricmp' undefined; assuming extern returning int
+D_net.c
+Dconsole.c
+C:\WCEDreamcast\dcdoom\Dconsole.c(665) : warning C4013: 'stricmp' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\Dconsole.c(907) : warning C4013: 'strnicmp' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\Dconsole.c(1379) : warning C4013: 'isdigit' undefined; assuming extern returning int
+Doomdef.c
+Doomstat.c
+Dstrings.c
+Dxerr.c
+F_finale.c
+F_wipe.c
+C:\WCEDreamcast\dcdoom\F_wipe.c(341) : warning C4013: 'I_GetTime' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\F_wipe.c(352) : warning C4013: 'RenderScene' undefined; assuming extern returning int
+G_game.c
+C:\WCEDreamcast\dcdoom\G_game.c(281) : warning C4101: 'bstrafe' : unreferenced local variable
+C:\WCEDreamcast\dcdoom\G_game.c(1330) : warning C4013: 'Flash_ReadFile' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\G_game.c(1450) : warning C4013: 'Flash_WriteFile' undefined; assuming extern returning int
+Hu_lib.c
+Hu_stuff.c
+I_main.c
+i_music.c
+C:\WCEDreamcast\dcdoom\i_music.c(328) : warning C4013: 'LoadTonebank' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\i_music.c(262) : warning C4101: 'rc' : unreferenced local variable
+C:\WCEDreamcast\dcdoom\i_music.c(267) : warning C4101: 'numdev' : unreferenced local variable
+I_net.c
+I_sound.c
+I_system.c
+C:\WCEDreamcast\dcdoom\I_system.c(123) : warning C4013: 'I_InitMusic' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\I_system.c(143) : warning C4013: 'wipe_FadeToBlack' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\I_system.c(148) : warning C4013: 'I_ShutdownMusic' undefined; assuming extern returning int
+I_video.c
+Info.c
+C:\WCEDreamcast\dcdoom\Info.c(137) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(138) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(139) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(140) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(142) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(145) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(146) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(147) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(148) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(150) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(152) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(153) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(154) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(155) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(156) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(158) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(165) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(166) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(167) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(168) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(169) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(170) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(172) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(174) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(175) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(177) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(179) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(180) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(183) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(184) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(185) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(186) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(187) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(188) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(189) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(190) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(191) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(192) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(193) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(194) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(195) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(196) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(197) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(198) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(199) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(201) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(202) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(203) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(204) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(205) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(206) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(207) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(208) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(209) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(210) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(211) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(212) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(213) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(214) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(215) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(216) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(217) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(218) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(219) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(220) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(221) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(222) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(223) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(224) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(225) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(255) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(263) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(293) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(295) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(296) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(302) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(303) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(310) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(311) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(312) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(313) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(314) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(315) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(316) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(317) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(318) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(319) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(320) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(321) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(324) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(326) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(327) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(331) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(332) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(343) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(344) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(345) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(346) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(347) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(348) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(349) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(350) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(351) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(352) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(353) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(354) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(357) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(359) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(360) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(364) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(365) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(377) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(378) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(379) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(380) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(381) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(382) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(383) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(384) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(385) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(386) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(387) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(388) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(389) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(390) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(391) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(392) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(393) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(394) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(395) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(396) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(397) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(398) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(399) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(400) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(406) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(408) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(409) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(417) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(418) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(419) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(420) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(421) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(422) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(423) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(424) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(425) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(426) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(427) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(428) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(429) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(430) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(431) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(432) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(433) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(434) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(435) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(436) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(437) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(438) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(439) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(440) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(441) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(442) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(443) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(444) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(445) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(446) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(452) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(453) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(457) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(458) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(459) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(460) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(461) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(462) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(463) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(464) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(465) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(466) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(467) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(468) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(469) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(470) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(471) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(472) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(473) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(474) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(475) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(476) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(477) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(478) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(480) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(483) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(484) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(498) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(499) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(500) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(501) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(502) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(503) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(504) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(505) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(506) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(507) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(508) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(509) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(510) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(511) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(512) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(513) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(514) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(515) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(516) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(517) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(518) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(519) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(520) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(521) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(523) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(525) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(526) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(533) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(542) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(543) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(544) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(545) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(546) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(547) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(548) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(549) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(550) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(551) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(552) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(553) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(554) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(555) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(557) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(559) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(560) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(566) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(567) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(578) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(579) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(580) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(581) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(582) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(583) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(584) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(585) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(586) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(587) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(588) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(589) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(590) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(592) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(594) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(596) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(599) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(601) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(611) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(612) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(613) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(614) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(615) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(616) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(617) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(618) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(619) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(620) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(621) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(622) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(623) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(625) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(627) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(629) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(638) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(639) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(640) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(641) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(642) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(644) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(647) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(650) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(663) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(664) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(665) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(666) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(667) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(668) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(669) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(670) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(671) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(672) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(673) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(674) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(675) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(677) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(679) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(681) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(684) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(692) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(693) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(694) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(695) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(696) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(697) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(698) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(699) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(700) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(701) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(702) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(703) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(704) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(706) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(708) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(710) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(721) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(722) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(723) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(724) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(725) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(726) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(730) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(732) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(734) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(737) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(738) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(739) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(740) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(741) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(742) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(743) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(744) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(745) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(746) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(747) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(748) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(749) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(750) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(751) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(752) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(753) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(754) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(756) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(757) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(758) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(767) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(768) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(769) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(771) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(772) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(773) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(774) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(775) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(776) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(777) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(778) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(779) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(780) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(781) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(782) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(783) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(784) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(786) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(788) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(789) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(790) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(795) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(810) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(811) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(812) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(813) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(814) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(815) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(816) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(817) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(818) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(819) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(820) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(821) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(822) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(823) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(824) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(825) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(826) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(828) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(832) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(836) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(837) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(838) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(839) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(840) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(841) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(842) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(843) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(844) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(845) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(846) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(847) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(849) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(851) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(854) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(862) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(863) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(864) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(865) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(866) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(867) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(868) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(869) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(870) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(871) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(872) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(873) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(874) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(875) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(876) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(877) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(879) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(881) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(882) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(886) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(887) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(902) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(910) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(913) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(915) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(916) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(919) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(920) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(921) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(922) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(923) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(924) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(925) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(926) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(927) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(928) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(929) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(930) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(931) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(932) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(933) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(934) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(937) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(945) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+C:\WCEDreamcast\dcdoom\Info.c(947) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void *)'
+M_argv.c
+M_bbox.c
+M_cheat.c
+M_fixed.c
+M_menu.c
+C:\WCEDreamcast\dcdoom\M_menu.c(541) : warning C4013: 'Flash_FileExists' undefined; assuming extern returning int
+M_misc.c
+C:\WCEDreamcast\dcdoom\M_misc.c(463) : warning C4013: 'Flash_WriteFile' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\M_misc.c(531) : warning C4013: 'Flash_ReadFile' undefined; assuming extern returning int
+M_random.c
+M_swap.c
+P_ceilng.c
+P_doors.c
+P_enemy.c
+P_floor.c
+P_inter.c
+C:\WCEDreamcast\dcdoom\P_inter.c(850) : warning C4013: 'Vibrate_Small' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\P_inter.c(853) : warning C4013: 'Vibrate_Medium' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\P_inter.c(856) : warning C4013: 'Vibrate_Large' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\P_inter.c(858) : warning C4013: 'Vibrate_VeryLarge' undefined; assuming extern returning int
+P_lights.c
+P_map.c
+P_maputl.c
+P_mobj.c
+P_plats.c
+P_pspr.c
+C:\WCEDreamcast\dcdoom\P_pspr.c(259) : warning C4013: 'Vibrate_Kickback' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\P_pspr.c(332) : warning C4013: 'Vibrate_ChainsawIdle' undefined; assuming extern returning int
+P_saveg.c
+P_setup.c
+P_sight.c
+P_spec.c
+P_switch.c
+P_telept.c
+P_tick.c
+P_user.c
+R_bsp.c
+R_data.c
+C:\WCEDreamcast\dcdoom\R_data.c(48) : warning C4005: 'alloca' : macro redefinition
+        C:\WCEDreamcast\inc\stdlib.h(92) : see previous definition of 'alloca'
+C:\WCEDreamcast\dcdoom\R_data.c(728) : warning C4013: 'strupr' undefined; assuming extern returning int
+R_draw.c
+R_main.c
+R_plane.c
+C:\WCEDreamcast\dcdoom\R_plane.c(123) : warning C4013: 'calloc' undefined; assuming extern returning int
+R_segs.c
+R_sky.c
+R_things.c
+C:\WCEDreamcast\dcdoom\R_things.c(310) : warning C4013: 'calloc' undefined; assuming extern returning int
+S_sound.c
+Sounds.c
+St_lib.c
+St_stuff.c
+Tables.c
+V_video.c
+W_wad.c
+C:\WCEDreamcast\dcdoom\W_wad.c(168) : warning C4013: 'Flash_ReadFile' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\W_wad.c(249) : warning C4013: 'strcmpi' undefined; assuming extern returning int
+C:\WCEDreamcast\dcdoom\W_wad.c(453) : warning C4013: 'strupr' undefined; assuming extern returning int
+Wi_stuff.c
+Windoom.c
+C:\WCEDreamcast\dcdoom\Windoom.c(462) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(485) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(492) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(493) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(494) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(495) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(496) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(497) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(498) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(499) : warning C4244: 'function' : conversion from 'float ' to 'unsigned char ', possible loss of data
+C:\WCEDreamcast\dcdoom\Windoom.c(1057) : warning C4101: 's' : unreferenced local variable
+C:\WCEDreamcast\dcdoom\Windoom.c(1713) : warning C4013: 'M_WriteText' undefined; assuming extern returning int
+Z_zone.c
+Linking...
+
+
+
+<h3>Results</h3>
+DCDoom.exe - 0 error(s), 508 warning(s)
+</pre>
+</body>
+</html>
